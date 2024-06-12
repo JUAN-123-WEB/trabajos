@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Preinscripción - ITFIP</title>
+</head>
+<body>
+
+    <h1>Preinscripción - ITFIP</h1>
+
+    <form>
+        <label>Nombre:</label>
+        <input type="text" required><br>
+
+        <label>Correo:</label>
+        <input type="email" required><br>
+
+        <label>Teléfono:</label>
+        <input type="text" pattern="[0-9]+" title="Solo números" required><br>
+
+        <label>Programa:</label>
+        <select required>
+            <option value="" disabled selected>Selecciona un programa</option>
+            <option value="ingenieria">Ingeniería</option>
+            <option value="informatica">Informática</option>
+            <option value="administracion">Administración</option>
+            <option value="contaduria">contaduria</option>
+            <option value="entrenamiento deportivo">entrenamiento deportivo</option>
+            <option value="electronica">electronica</option>
+        </select><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
