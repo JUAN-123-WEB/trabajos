@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Registro de Atención Médica</title>
+</head>
+<body>
+
+    <h1>Registro de Atención Médica</h1>
+
+    <form>
+        <label>Nombre del Paciente:</label>
+        <input type="text" required><br>
+
+        <label>Fecha de Atención:</label>
+        <input type="date" required><br>
+
+        <label>Síntomas:</label>
+        <textarea required></textarea><br>
+
+        <label>Diagnóstico:</label>
+        <textarea required></textarea><br>
+
+        <button type="submit">Registrar</button>
+    </form>
+
+</body>
+</html>
